@@ -1,0 +1,17 @@
+version: '3'
+
+services:
+  node-app:
+    build: .
+    image: hagglex
+    ports:
+      - '8000:8000'
+    volumes:
+      - .:/usr/src/hagglex
+    networks:
+      - node-network
+volumes:
+  dbdata:
+networks:
+  node-network:
+    driver: bridge
