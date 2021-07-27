@@ -1,8 +1,8 @@
 {
   "name": "hagglex-assesment",
   "version": "0.0.1",
-  "description": "",
-  "author": "",
+  "description": " service that parses a URL and returns meta-data from that web page. Data to be submitted should include - The title, description and largest image on that webpage.",
+  "author": "nextwebb",
   "private": true,
   "license": "UNLICENSED",
   "scripts": {
